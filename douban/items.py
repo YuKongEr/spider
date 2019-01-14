@@ -24,3 +24,26 @@ class DoubanItem(scrapy.Item):
     # 电影描述
     describe = scrapy.Field()
     pass
+
+class PersonItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    name = scrapy.Field()
+    imgUrl = scrapy.Field()
+    pass
+
+
+class GraphicItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    name = scrapy.Field()
+    imgUrl = scrapy.Field()
+    pass
+
+class PicItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()\
+    title = scrapy.Field()
+    name = scrapy.Field()
+    imgUrl = scrapy.Field()
+    pass
